@@ -5,15 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn HTML and CSS</title>
     <style> 
+    h1, h2, h3{
+        font-size: 100px;
+        background-color: aquamarine; 
+    }
     p {
         /* color: grey */
         /*  */
         color: rgba(187, 23, 23, 0.5);
+        font-size: 30px;
+    }
+    #heading{
+        color: blueviolet;
+        font-size: 50px;
+    }
+    .green-text{
+        color: green;
+    }
+    .font-sixe-large{
+        font-size: 90px;
     }
      </style>
 </head>
-<body>
+<body> 
     <!-- ctrl+/   -->
+    <h1>Header</h1>
+    <p style="color: red;">Lorem ipsum dolor, sit <span class="green-text">consectetur adipisicing elit. Qui, ex!</span> </p>
+    <article>
+        <h2 id="heading">Super <span class="green-text font-sixe-large">mega</span> zagolovok</h2>
+    </article>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, ex!</p>
 </body>
 </html>

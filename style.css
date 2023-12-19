@@ -1,20 +1,38 @@
-h1, h2, h3{
-    font-size: 100px;
-    background-color: aquamarine; 
+h1,
+h2,
+h3 {
+  font-size: 100px;
+  background-color: aquamarine;
+}
+body{
+    font-size: 20px;
 }
 p {
-    /* color: grey */
-    /*  */
-    color: rgba(187, 23, 23, 0.5);
-    font-size: 30px;
+  /* color: grey */
+  /*  */
+  color: rgba(187, 23, 23, 0.5);
+  /*font-size: 30px; */
+  line-height: 2em;
+  text-align: justify;
 }
-#heading{
-    color: blueviolet;
-    font-size: 50px;
+#heading {
+  color: blueviolet;
+  font-size: 50px;
 }
-.green-text{
-    color: green;
+.green-text {
+  color: green;
 }
-.font-sixe-large{
-    font-size: 90px;
+.font-sixe-large {
+  font-size: 90px;
+}
+#btn1{
+    text-transform: uppercase;
+}
+#btn2{
+    text-transform: lowercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }

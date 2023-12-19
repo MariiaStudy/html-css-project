@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Lilita One';
+    src: url('./fonts/LilitaOne-Regular.ttf');
+}
 h1,
 h2,
 h3 {
   font-size: 100px;
   background-color: aquamarine;
+  font-family: 'Lilita One';
 }
 body{
     font-size: 20px;
@@ -14,6 +19,8 @@ p {
   /*font-size: 30px; */
   line-height: 2em;
   text-align: justify;
+  /*font-family: 'Courier New', Courier, monospace;*/
+  font-family: 'Jost', sans-serif;
 }
 #heading {
   color: blueviolet;

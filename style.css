@@ -1,17 +1,14 @@
-/* .image{
-    width: 300px;
-    border: 3px solid red;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-left: 60px;
-} */
-div{
-    display: inline;
+.card-wrapper{
+    border: 1px solid #000000;
+    width: 500px;
+    height: 300px;
 }
-img{
+.image{
+    display: block;
+    margin: 0 auto;
     border-radius: 50%;
     /* width: 300px;
     height: 300px; */
     object-fit: cover;
-    object-position: 10px;
+
 }

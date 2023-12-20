@@ -1,45 +1,5 @@
-@font-face {
-    font-family: 'Lilita One';
-    src: url('./fonts/LilitaOne-Regular.ttf');
-}
-h1,
-h2,
-h3 {
-  font-size: 100px;
-  background-color: aquamarine;
-  font-family: 'Lilita One';
-}
-body{
-    font-size: 20px;
-}
-p {
-  /* color: grey */
-  /*  */
-  color: rgba(187, 23, 23, 0.5);
-  /*font-size: 30px; */
-  line-height: 2em;
-  text-align: justify;
-  /*font-family: 'Courier New', Courier, monospace;*/
-  font-family: 'Jost', sans-serif;
-}
-#heading {
-  color: blueviolet;
-  font-size: 50px;
-}
-.green-text {
-  color: green;
-}
-.font-sixe-large {
-  font-size: 90px;
-}
-#btn1{
-    text-transform: uppercase;
-}
-#btn2{
-    text-transform: lowercase;
-}
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+.image{
+    width: 300px;
+    border: 3px solid red;
+    box-sizing: border-box;
 }

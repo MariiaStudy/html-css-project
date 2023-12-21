@@ -1,14 +1,4 @@
-.card-wrapper{
-    border: 1px solid #000000;
-    width: 500px;
-    height: 300px;
-}
-.image{
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    /* width: 300px;
-    height: 300px; */
-    object-fit: cover;
-
+table, td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
 }
